@@ -59,3 +59,47 @@
     linear-gradient(70deg, rgb(10, 4, 4), rgb(51, 47, 47));
     color: azure;
 }
+.header2{
+    font-size: 55px;
+    text-align: center;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-top: 25px;
+}
+.header4{
+    color: white;
+}
+.icon{
+    width: 80px;
+}
+.box{
+    width: 280px;
+    height: 330px;
+    box-shadow: 10px 10px 15px 5px gray;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px 19px;
+}
+.button2{
+    background-color: #596264;
+    padding-top: 10px;
+}
+.header3{
+    padding: 10px;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.main-service{
+    background-image: url("./images/background.png"),
+    linear-gradient(30deg, rgb(43, 42, 42), rgb(43, 42, 42)) ;
+    padding: 60px;
+}
