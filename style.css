@@ -27,3 +27,35 @@
 .style:hover{
     color: aqua;
 }
+.header{
+    font-size: 55px;
+    font-weight: bold;
+}
+.para{ 
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    padding: 10px 15px;
+    background-color: #F20B13;
+    color: azure;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    color:chartreuse;
+    cursor: pointer;
+}
+.photo-style{
+    width: 350px;
+}
+.info{
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"), 
+    linear-gradient(70deg, rgb(10, 4, 4), rgb(51, 47, 47));
+    color: azure;
+}
