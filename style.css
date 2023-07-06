@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo-size{
+    width: 250px;
+}
+.menu-section{
+    background-color: #596264;
+    padding: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    list-style: none;
+    display: flex;
+
+
+}
+.style{
+    margin-right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.style:hover{
+    color: aqua;
+}
