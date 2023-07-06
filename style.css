@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .logo-size{
-    width: 250px;
+    width: 200px;
 }
 .menu-section{
     background-color: #596264;
@@ -102,4 +102,27 @@
     background-image: url("./images/background.png"),
     linear-gradient(30deg, rgb(43, 42, 42), rgb(43, 42, 42)) ;
     padding: 60px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 190px;
+    align-items: center;
+}
+.logo3:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+.logo2{
+    padding-bottom: 20px;
+
+}
+.last-word{
+      color: azure;
+      background-color: black;
+      text-align: center;
+      padding-bottom: 40px;
+      padding-top: 20px;
 }
